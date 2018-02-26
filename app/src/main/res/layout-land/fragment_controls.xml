@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/forwardBttn"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/forward"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backwardsBttn"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/backward"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rotateLeftBttn"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rleft"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/RotateRightBttn"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginLeft="172dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rright"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/upBttn"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/up"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/leftBttn"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginRight="172dp"
+        android:background="@drawable/left"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/rightBttn"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/right"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="28dp" />
+
+    <Button
+        android:id="@+id/downBttn"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/down"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
